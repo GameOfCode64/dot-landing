@@ -8,21 +8,21 @@ const products = [
     name: "Qubit Shop",
     icon: <Store className="text-purple-600 w-10 h-10" />,
     bgColor: "bg-purple-100",
-    href: "https://dot-opal.vercel.app/",
+    href: "https://dot-opal.vercel.app/shop",
   },
   {
     id: 2,
     name: "Freelance",
     icon: <Briefcase className="text-blue-600 w-10 h-10" />,
     bgColor: "bg-blue-100",
-    href: "https://dot-opal.vercel.app/",
+    href: "https://dot-opal.vercel.app/shop",
   },
   {
     id: 3,
     name: "Community",
     icon: <Users className="text-green-600 w-10 h-10" />,
     bgColor: "bg-green-100",
-    href: "https://dot-opal.vercel.app/",
+    href: "https://dot-opal.vercel.app/shop",
   },
 ];
 
