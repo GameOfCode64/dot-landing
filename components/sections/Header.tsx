@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import logo from "@/public/Qubit.png";
+import logo from "@/public/Qubit-white.png";
 import Link from "next/link";
 
 import Button from "../Button";
