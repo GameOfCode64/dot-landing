@@ -5,21 +5,21 @@ import React from "react";
 const products = [
   {
     id: 1,
-    name: "Qubit Shop",
+    name: "Quickie ",
     icon: <Store className="text-purple-600 w-10 h-10" />,
     bgColor: "bg-purple-100",
     href: "https://dot-opal.vercel.app/shop",
   },
   {
     id: 2,
-    name: "Freelance",
+    name: "QuickGig",
     icon: <Briefcase className="text-blue-600 w-10 h-10" />,
     bgColor: "bg-blue-100",
     href: "https://dot-opal.vercel.app/shop",
   },
   {
     id: 3,
-    name: "Community",
+    name: "QuantMania",
     icon: <Users className="text-green-600 w-10 h-10" />,
     bgColor: "bg-green-100",
     href: "https://dot-opal.vercel.app/shop",
