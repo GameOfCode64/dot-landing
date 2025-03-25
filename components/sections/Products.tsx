@@ -15,7 +15,7 @@ const products = [
     name: "QuickGig",
     icon: <Briefcase className="text-blue-600 w-10 h-10" />,
     bgColor: "bg-blue-100",
-    href: "https://dot-opal.vercel.app/",
+    href: "https://dot-fiverr.vercel.app/",
   },
   {
     id: 3,
