@@ -1,11 +1,15 @@
 "use client";
 import { Store, Briefcase, Users } from "lucide-react";
+import Image from "next/image";
 import React from "react";
+import quickie from "@/public/Quickie.png";
+import quickgig from "@/public/QuickGig.png";
+import qquantumania from "@/public/Quantumania.jpg";
 
 const products = [
   {
     id: 1,
-    name: "Quickie ",
+    name: "Quickie",
     icon: <Store className="text-purple-600 w-10 h-10" />,
     bgColor: "bg-purple-100",
     href: "https://dot-opal.vercel.app/shop",
@@ -19,7 +23,7 @@ const products = [
   },
   {
     id: 3,
-    name: "QuantMania",
+    name: "QuantuMania",
     icon: <Users className="text-green-600 w-10 h-10" />,
     bgColor: "bg-green-100",
     href: "https://dot-opal.vercel.app/shop",
@@ -43,10 +47,10 @@ const Products = () => {
             className="flex flex-col items-center border border-gray-200 bg-white shadow-md py-6 px-8 rounded-lg transition hover:shadow-lg"
           >
             {/* Icon Container */}
+            {/* <Image src={quickie} alt="Quickie" className="w-[55px]" /> */}
             <div className={`p-4 ${product.bgColor} rounded-lg shadow-sm`}>
               {product.icon}
             </div>
-
             {/* Product Name */}
             <p className="text-lg font-medium mt-4 text-black">
               {product.name}

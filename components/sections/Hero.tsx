@@ -29,9 +29,9 @@ const Hero = () => {
           Qubit
         </h1>
         <p className="text-lg text-white/70 mt-5 text-center max-w-4xl mx-auto">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, optio
-          in ipsam asperiores iste tenetur dolorem, quis, incidunt repudiandae
-          repellendus dolorum!
+          Qubit is a dynamic platform featuring Quickie for seamless shopping,
+          QuickGig for freelancing opportunities, and Quantumania for a thriving
+          study community, empowering users to connect and grow!
         </p>
         <div className="flex items-center justify-center mt-5">
           <Button title="Try Now"></Button>
