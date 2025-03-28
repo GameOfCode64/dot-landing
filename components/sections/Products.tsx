@@ -32,7 +32,7 @@ const products = [
 
 const Products = () => {
   return (
-    <div className="mt-24 md:px-12 px-4 flex flex-col my-8">
+    <section className="mt-24 md:px-12 px-4 flex flex-col my-8">
       {/* Heading */}
       <h1 className="text-4xl font-semibold text-center mb-8">Our Products</h1>
 
@@ -58,7 +58,7 @@ const Products = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
